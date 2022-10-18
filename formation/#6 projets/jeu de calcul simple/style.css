@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    width: 100%;
+    background-color: #18f; 
+}
+section{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section .calcul{
+    display: flex;
+}
+section .calcul h1{
+    color: white;
+    font-size: 50px;
+    margin: 0 20px;
+}
+section h2{
+    color: white;
+    margin: 10px 0;
+}
+section input{
+    padding: 10px 0;
+    border: 0;
+    outline: 0;
+    color: white;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+.answerCorrect{
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    padding: 5px 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.answerWrong{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    padding: 5px 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+}
+.link{
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border: 2px solid rgb(161, 150, 150);
+    display: none;
+}
+.submit{
+    margin: 20px 0;
+    border-radius: 5px;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 10px 25px;
+    cursor: pointer;
+    border: 0;
+    text-transform: uppercase;
+}
+/* .message{
+    display: none;
+} */
